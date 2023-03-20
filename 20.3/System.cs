@@ -10,6 +10,14 @@ namespace _20._3
     {
         public HashSet<Uzivatel> uzivatele = new HashSet<Uzivatel>();
 
+        public void Add(Uzivatel u)
+        {
+            uzivatele.Add(u);
+        }
 
+        public void SearchByAccess()
+        {
+
+        }
     }
 }
